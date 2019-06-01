@@ -1,7 +1,7 @@
 # Simple REACT PWA Reference & Quick Start Guide 
-              #### Deploy and host a ReactJS app
-	      #### with AWS Amplify Console
-			  <hr/>
+#### Deploy and host a ReactJS app
+#### with AWS Amplify Console
+<hr/>
 			  
 ## Prerequisites
  - npm
