@@ -2,6 +2,12 @@
 #### - Deploy and host a ReactJS app
 #### - with AWS Amplify Console
 <hr/>
+
+## Why AWS Amplify
+
+AWS Amplify Console provides a Git-based CI/CD workflow for developing, deploying, and hosting single page web applications or static sites with serverless backends. Upon connecting to a Git repository, Amplify determines the build settings for both the frontend framework and any serverless backend resources configured with the Amplify CLI, and automatically deploys updates with every code commit.
+<hr/>
+
 			  
 ## Prerequisites
  - npm
@@ -13,7 +19,6 @@
  - git
  - aws git configuration
  - AWS CodeCommit Configuration
-
 
 ###  1. Confirm environmental setup
 
@@ -71,3 +76,11 @@
      - git commit -m "test in statuscheck"
      - git push https://git-codecommit.XXXXX.amazonaws.com/v1/repos/simplereact master
    - c. Once the build is complete, select the thumbnail on the AWS Amplify console to view your updated app.
+
+ ## Refference
+ 
+  - https://codeburst.io/building-your-first-react-app-c1f6eb814205
+  - https://engineering.musefind.com/build-your-first-progressive-web-app-with-react-8e1449c575cd
+  - https://aws.amazon.com/getting-started/tutorials/deploy-react-app-cicd-amplify/
+
+  
